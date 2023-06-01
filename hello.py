@@ -32,8 +32,4 @@ while True:
 
 
 
-
-
-
-
     #####Bella's Pretty Section#####
