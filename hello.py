@@ -31,22 +31,12 @@ while True:
     
     
     if question_1 == "S": 
-        user = input("Please enter a username that you would like to use.").capitalize()
-
+        user = input("Please enter a username that you would like to use: ").capitalize()
+        pw_hash = hash(input("please enter your password: "))
+        users[user] = pw_hash
     elif question_1 == "L":
         print("L")
 
 
 
 
-<<<<<<< HEAD
-    #####Bella's Pretty Section#####
-=======
-
-
-
-
-    #####Bella's Pretty Section#####
-
-
->>>>>>> 629d8c1 (I added new code that gets the user's input for signing up and log in usernames into Rachelle's section)
