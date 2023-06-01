@@ -35,7 +35,19 @@ while True:
         pw_hash = hash(input("please enter your password: "))
         users[user] = pw_hash
     elif question_1 == "L":
-        print("L")
+        question_2 = input ("Please enter your username: ").capitalize
+        if question_2 in users:
+            question_3 = ("Please enter your password: ")
+            if question_3 == pw_hash[question_2]:
+                print ("Welcome back user " , question_2)
+            elif question_3 != pw_hash[question_2]:
+                print ("that is the wrong password please sign up: ")
+                user = input("Please enter a username that you would like to use.").capitalize()
+                pw_hash = hash(input("please enter your password: "))
+                users[user] = pw_hash
 
-
-
+        elif question_2 not in users:
+            print ("that is the wrong password please sign up: ")
+            user = input("Please enter a username that you would like to use.").capitalize()
+            pw_hash = hash(input("please enter your password: "))
+            users[user] = pw_hash
