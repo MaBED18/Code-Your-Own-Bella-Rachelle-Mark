@@ -25,6 +25,8 @@ if users is None:
 
 ### Rachelle's section ###
 while True:
+    print ("")
+    print ("")
     user = input("Enter a username, or q to quit, u to see all users: ").capitalize()
 
 
