@@ -38,15 +38,3 @@ while True:
 
 
 
-
-<<<<<<< HEAD
-    #####Bella's Pretty Section#####
-=======
-
-
-
-
-    #####Bella's Pretty Section#####
-
-
-\>>>>> 629d8c1 (I added new code that gets the user's input for signing up and log in usernames into Rachelle's section)
