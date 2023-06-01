@@ -34,4 +34,5 @@ print("How is everyone feeling today? I feel like we don't check in on each othe
 
 
 ### Rachelle's section ###
-print ("Hello World")
+while True:
+    user = input("Enter a username, or q to quit, u to see all users: ").capitalize()
