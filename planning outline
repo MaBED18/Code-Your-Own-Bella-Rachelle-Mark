@@ -1,0 +1,7 @@
+idea: login checker 
+
+input: User's username and password, saving it to the list user
+
+output: Computer remembers the user's input and will be able to tell if its correct or not on later entries. 
+
+changesflsdkjfl
