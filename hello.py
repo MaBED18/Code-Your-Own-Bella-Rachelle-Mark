@@ -14,5 +14,5 @@ print("How is everyone feeling today? I feel like we don't check in on each othe
 
 
 
-### Rachell's section ###
+### Rachelle's section ###
 print ("Hello World")
