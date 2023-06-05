@@ -56,13 +56,13 @@ while True:
                         total -= 1
                         continue
                 if total == 0:
-                    print ("You have entered the wrong password too many times please sign up instead. ")
+                    print ("You have entered the wrong password too many times. Please reset your password. ")
                     user = input("Please enter a username that you would like to use: ")
                     pw_hash = hash(input("please enter your password: "))
                     users[user] = pw_hash
                     total = 2
         elif question_2 != user:
-                print ("there is no username that matches that, please sign up.")
+                print ("There is no account that matches that username.Please create a new profile.")
                 user = input("Please enter a username that you would like to use: ").capitalize()
                 pw_hash = hash(input("please enter your password: "))
                 users[user] = pw_hash
