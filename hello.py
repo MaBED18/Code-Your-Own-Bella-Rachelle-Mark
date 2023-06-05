@@ -61,7 +61,7 @@ while True:
                     pw_hash = hash(input("please enter your password: "))
                     users[user] = pw_hash
                     total = 2
-        elif question_2 != user:
+        elif question_2 != users:
                 print ("There is no account that matches that username. Please create a new profile.")
                 user = input("Please enter a username that you would like to use: ").capitalize()
                 pw_hash = hash(input("please enter your password: "))
