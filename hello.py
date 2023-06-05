@@ -27,7 +27,7 @@ total = 2
 while True:
     print ("")
     print ("")
-    question_1 = input("Would you like to log into your account or sign up and create a new profile? Press L for log in or S to sign up:")
+    question_1 = input("Would you like to log into your account or sign up and create a new profile? Press L for log in or S to sign up: ")
     
     
     if question_1 == "S": 
@@ -62,7 +62,7 @@ while True:
                     users[user] = pw_hash
                     total = 2
         elif question_2 != user:
-                print ("There is no account that matches that username.Please create a new profile.")
+                print ("There is no account that matches that username. Please create a new profile.")
                 user = input("Please enter a username that you would like to use: ").capitalize()
                 pw_hash = hash(input("please enter your password: "))
                 users[user] = pw_hash
